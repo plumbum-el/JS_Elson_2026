@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+<head>
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <!-- Шапка с логотипом и меню (ТАКАЯ ЖЕ КАК В INDEX) -->
+  <div class="header">
+    <a href="index.html" class="logo-link">
+      <img src="lotus.png" alt="логотип лотос" class="logo">
+    </a>
+    <div class="menu-container">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="dropdown-menu">
+        <a href="#" class="menu-item">career center</a>
+        <a href="#" class="menu-item">for business clients</a>
+        <a href="#" class="menu-item">referal program</a>
+        <a href="#" class="menu-item">our blog</a>
+        <a href="second.html" class="menu-item calculator-link">calculator</a>
+      </div>
+    </div>
+  </div>
+
+  <div> 
+    <div id="result" class="result">0</div>
+
+    <div>
+      <div>  
+        <button id="btn_op_clear" class="my-btn secondary">C</button>
+        <button id="btn_op_backspace" class="my-btn secondary">⌫</button> 
+        <button id="btn_op_sqrt" class="my-btn secondary">√</button>
+        <button id="btn_op_div" class="my-btn primary">/</button>
+      </div>
+
+      <div>
+        <button id="btn_digit_7" class="my-btn">7</button>
+        <button id="btn_digit_8" class="my-btn">8</button>
+        <button id="btn_digit_9" class="my-btn">9</button>
+        <button id="btn_op_mult" class="my-btn primary">x</button>
+      </div>
+
+      <div>
+        <button id="btn_digit_4" class="my-btn">4</button>
+        <button id="btn_digit_5" class="my-btn">5</button>
+        <button id="btn_digit_6" class="my-btn">6</button>
+        <button id="btn_op_minus" class="my-btn primary">-</button>
+      </div>
+
+      <div>
+        <button id="btn_digit_1" class="my-btn">1</button>
+        <button id="btn_digit_2" class="my-btn">2</button>
+        <button id="btn_digit_3" class="my-btn">3</button>
+        <button id="btn_op_plus" class="my-btn primary">+</button>
+      </div>
+
+      <div>
+        <button id="btn_digit_0" class="my-btn">0</button>
+        <button id="btn_digit_dot" class="my-btn">.</button>
+        <button id="btn_op_sign" class="my-btn secondary">+/-</button>
+        <button id="btn_op_percent" class="my-btn secondary">%</button>
+        <button id="btn_op_square" class="my-btn secondary">x²</button>
+        <button id="btn_op_equal" class="my-btn primary execute">=</button>
+      </div>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <button id="btn_change_color" class="my-btn secondary">Change color</button>
+      </div>
+
+      <div style="text-align: center; margin-top: 20px; font-size: 12px; font-family: 'Space Grotesk', sans-serif;">
+        <a href="index.html" style="color: white; text-decoration: none;">Lab is made by Volozhenkova Victoria</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
