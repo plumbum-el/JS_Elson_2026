@@ -26,6 +26,16 @@
 ## Структура проекта
 ```
 lab6/
+├── index.js
+├── routes/
+│   └── stocks.js
+├── controllers/
+│   └── stocksController.js
+├── services/
+│   ├── stocksService.js
+│   └── fileService.js
+├── data/
+└── stocks.json
 ├── index.html
 ├── main.js
 ├── modules/
