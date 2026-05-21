@@ -21,7 +21,7 @@
 
 ## Структура проекта
 ```
-Nikandrov-NAP-Labs-2026
+Volozhenkova-JS-Labs-4-Sem
 ├─ README.md
 ├─ index.html
 ├─ second.html
